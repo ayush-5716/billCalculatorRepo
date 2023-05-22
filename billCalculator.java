@@ -1,3 +1,4 @@
+//thqnk you for reviewing my code!
 
 import java.util.Scanner;
 
@@ -18,6 +19,7 @@ public class billCalculator extends Exception{
         prices[1] = 40;
         prices[2] = 50;
         
+        //encapsulating in try and catch block to handle input mismatch exception
         try{
             takeInput(quantities, sc);        //function to take input quantities
             System.out.println("Would you like your order to be wrapped?(true/false):");
