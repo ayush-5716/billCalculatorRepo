@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class billCalculator extends Exception{
 
     static float discountedPrice=0;
-    static String discName = "";
+    static String discName = "no discount applicable";
     static float discAmount = 0;
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
