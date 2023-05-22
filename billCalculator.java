@@ -70,6 +70,9 @@ public class billCalculator extends Exception{
 
         //calculating shipping cost
         float shippingCost = ((quantities[0] + quantities[1] + quantities[2])/10) * 5;
+        if((quantities[0] + quantities[1] + quantities[2])%10 > 0){
+            shippingCost += 5;
+        }
 
         printOutput(quantities, totCosts, totalAmount, shippingCost, wrapCost);
     }
