@@ -1,4 +1,4 @@
-import java.util.InputMismatchException;
+
 import java.util.Scanner;
 
 public class billCalculator extends Exception{
@@ -13,7 +13,7 @@ public class billCalculator extends Exception{
         int quantities[] = new int[3];
         float totCosts[] = new float[3];
         boolean wrapped;
-        
+
         prices[0] = 20;
         prices[1] = 40;
         prices[2] = 50;
