@@ -1,5 +1,6 @@
 //thank you for reviewing my code!
-
+//this program calculates all the discounts that are applicable and then if the discounted price that
+//is the least is given as the output
 import java.util.Scanner;
 
 public class billCalculator extends Exception{
