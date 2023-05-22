@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class zennodeScreeningQuestion extends Exception{
+public class billCalculator extends Exception{
 
     static float discountedPrice=0;
     static String discName = "";
@@ -13,7 +13,7 @@ public class zennodeScreeningQuestion extends Exception{
         int quantities[] = new int[3];
         float totCosts[] = new float[3];
         boolean wrapped;
-        //s
+        
         prices[0] = 20;
         prices[1] = 40;
         prices[2] = 50;
