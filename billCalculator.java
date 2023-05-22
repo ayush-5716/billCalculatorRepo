@@ -1,4 +1,4 @@
-//thqnk you for reviewing my code!
+//thank you for reviewing my code!
 
 import java.util.Scanner;
 
